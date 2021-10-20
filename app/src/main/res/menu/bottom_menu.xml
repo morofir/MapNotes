@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Note List"
+        android:icon="@drawable/ic_baseline_format_list_numbered_rtl_24"
+        app:showAsAction="always"
+        android:id="@+id/note_list"/>
+    <item android:title="Note Map"
+        android:icon="@drawable/ic_baseline_local_airport_24"
+        app:showAsAction="always"
+        android:id="@+id/note_map"/>
+
+</menu>

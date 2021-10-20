@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "313792562254",
+    "project_id": "moveonotes",
+    "storage_bucket": "moveonotes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313792562254:android:f4a0755dfe0a86db522f1f",
+        "android_client_info": {
+          "package_name": "com.moridan.moveonotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313792562254-lisfq4h2k08tjue6qu97f4icr3qcde70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moridan.moveonotes",
+            "certificate_hash": "cfc62bcf4786531e3d2d9d8cd33967315c39a064"
+          }
+        },
+        {
+          "client_id": "313792562254-vfme08onn6f5idufj53etdnlko4lsr72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJYx46CUgRFzV8ZSsONs2DzJIIaoHQqWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313792562254-vfme08onn6f5idufj53etdnlko4lsr72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

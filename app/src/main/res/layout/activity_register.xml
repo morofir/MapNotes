@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.RegisterActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Create Account"
+      android:gravity="center"
+      android:fontFamily="@font/montserrat"
+      android:textColor="@color/black"
+      android:textSize="35sp"
+      android:textAlignment="center"
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="10dp"
+      />
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:id="@+id/register_email_et"
+      android:layout_margin="10dp"
+      android:paddingStart="10dp"
+      android:hint="User Email"
+      android:fontFamily="@font/montserrat"
+      android:drawableStart="@drawable/custom_email_input"
+      android:drawablePadding="20dp"
+      android:background="@drawable/custom_input"
+      android:textColorHint="#808080"
+      android:textColor="@color/white"
+      android:inputType="textEmailAddress"
+      android:maxLines="1"
+      android:paddingLeft="10dp"
+      android:drawableLeft="@drawable/custom_email_input" />
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:id="@+id/register_pass_et"
+      android:layout_margin="10dp"
+      android:paddingStart="10dp"
+      android:hint="Password"
+      android:fontFamily="@font/montserrat"
+      android:drawableStart="@drawable/custom_pass_input"
+      android:drawablePadding="20dp"
+      android:background="@drawable/custom_input"
+      android:textColorHint="@color/gray"
+      android:textColor="@color/white"
+      android:inputType="text"
+      android:maxLines="1"
+
+      android:paddingLeft="10dp"
+      android:drawableLeft="@drawable/custom_pass_input" />
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:id="@+id/confirm_pass_et"
+      android:fontFamily="@font/montserrat"
+      android:layout_margin="10dp"
+      android:paddingStart="10dp"
+      android:hint="Confirm Password"
+      android:textColor="@color/white"
+      android:drawableStart="@drawable/custom_pass_input"
+      android:drawablePadding="20dp"
+      android:background="@drawable/custom_input"
+      android:textColorHint="@color/gray"
+      android:inputType="text"
+      android:maxLines="1"
+      android:paddingLeft="10dp"
+      android:drawableLeft="@drawable/custom_pass_input" />
+
+
+  <CheckBox
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Show Password"
+      android:textColor="@color/black"
+      android:buttonTint="@color/black"
+      android:layout_gravity="center"
+      android:layout_marginTop="15dp"
+      android:fontFamily="@font/montserrat"
+      android:id="@+id/register_cb"
+      android:checked="true"/>
+
+  <android.widget.Button
+      android:layout_width="130dp"
+      android:layout_height="60dp"
+      android:id="@+id/register_btn"
+      android:background="@drawable/buttonshape"
+      android:fontFamily="@font/montserrat"
+      android:textColor="@color/black"
+      android:text="Sign Up!"
+      android:layout_margin="20dp"
+      android:textSize="20dp"
+      />
+
+  <android.widget.Button
+      android:layout_width="130dp"
+      android:layout_height="wrap_content"
+      android:id="@+id/signup_to_login"
+      android:background="@drawable/buttonshape"
+      android:fontFamily="@font/montserrat"
+      android:textColor="@color/black"
+      android:text="Already Signed Up"
+      android:textSize="16dp"
+      />
+
+
+
+  <ProgressBar
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/progressbar_register"
+      android:indeterminate="true"
+      android:indeterminateTint="@color/black"
+      style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+      android:visibility="invisible"
+      android:layout_marginTop="20dp"
+      />
+
+</LinearLayout>

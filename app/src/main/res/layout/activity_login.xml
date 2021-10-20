@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/loginmain"
+    android:background="@color/white"
+    tools:context=".views.LoginActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/login_email_et"
+        android:layout_margin="10dp"
+        android:hint="User Email"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/montserrat"
+        android:drawableStart="@drawable/custom_email_input"
+        android:drawablePadding="20dp"
+        android:background="@drawable/custom_input"
+        android:textColorHint="#808080"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/custom_email_input"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/login_pass_et"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:hint="Password"
+        android:fontFamily="@font/montserrat"
+        android:drawableStart="@drawable/custom_pass_input"
+        android:drawablePadding="20dp"
+        android:background="@drawable/custom_input"
+        android:textColorHint="#808080"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:maxLines="1"
+
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/custom_pass_input" />
+
+
+    <CheckBox
+        android:id="@+id/showpass_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:buttonTint="@color/black"
+        android:checked="true"
+        android:fontFamily="@font/montserrat"
+        android:text="Show Password"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgot_tv"
+        android:text="Forgot Password?"
+        android:gravity="center"
+        android:textColor="#808080"
+        android:layout_margin="20dp"
+        />
+
+
+
+
+
+    <android.widget.Button
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:id="@+id/login_btn"
+        android:background="@drawable/buttonshape"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat"
+        android:text="Login"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+
+        />
+
+
+    <android.widget.Button
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:id="@+id/register_btn"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/black"
+        android:text="Sign Up"
+        android:textSize="20dp"
+        />
+
+
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar_login"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/black"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:visibility="invisible"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+
+</LinearLayout>
